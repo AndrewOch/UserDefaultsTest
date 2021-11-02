@@ -17,6 +17,8 @@
 		045436042731AD76000C6518 /* UserDafaultsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045436032731AD76000C6518 /* UserDafaultsTestTests.swift */; };
 		0454360E2731AD76000C6518 /* UserDafaultsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454360D2731AD76000C6518 /* UserDafaultsTestUITests.swift */; };
 		045436102731AD76000C6518 /* UserDafaultsTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454360F2731AD76000C6518 /* UserDafaultsTestUITestsLaunchTests.swift */; };
+		0454361D2731ADE5000C6518 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454361C2731ADE5000C6518 /* UserSettings.swift */; };
+		0454361F2731B787000C6518 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454361E2731B787000C6518 /* UserDefaultsKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		045436092731AD76000C6518 /* UserDafaultsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserDafaultsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0454360D2731AD76000C6518 /* UserDafaultsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDafaultsTestUITests.swift; sourceTree = "<group>"; };
 		0454360F2731AD76000C6518 /* UserDafaultsTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDafaultsTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0454361C2731ADE5000C6518 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		0454361E2731B787000C6518 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				045435F72731AD75000C6518 /* LaunchScreen.storyboard */,
 				045435FA2731AD75000C6518 /* Info.plist */,
 				045435F22731AD73000C6518 /* UserDafaultsTest.xcdatamodeld */,
+				0454361C2731ADE5000C6518 /* UserSettings.swift */,
+				0454361E2731B787000C6518 /* UserDefaultsKeys.swift */,
 			);
 			path = UserDafaultsTest;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 				045435F42731AD73000C6518 /* UserDafaultsTest.xcdatamodeld in Sources */,
 				045435EE2731AD73000C6518 /* ViewController.swift in Sources */,
 				045435EA2731AD73000C6518 /* AppDelegate.swift in Sources */,
+				0454361D2731ADE5000C6518 /* UserSettings.swift in Sources */,
+				0454361F2731B787000C6518 /* UserDefaultsKeys.swift in Sources */,
 				045435EC2731AD73000C6518 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
